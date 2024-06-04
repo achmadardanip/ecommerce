@@ -10,6 +10,7 @@ This repository contains the source code for a comprehensive e-commerce platform
 - **Full featured shopping cart**
 - **Product reviews and ratings**
 - **Product pagination**
+- **Top products carousel**
 - **Product search feature**
 - **User profile with orders**
 - **Admin product management**
@@ -27,6 +28,7 @@ This repository contains the source code for a comprehensive e-commerce platform
 5. **API Framework**: Django REST Framework
 6. **Database Hosting**: Supabase
 7. **Database**: PostgreSQL
+8. **Storage:** AWS S3
 
 ## Installation
 ### Backend Setup
@@ -42,17 +44,24 @@ This repository contains the source code for a comprehensive e-commerce platform
     ```bash
     virtualenv myenv
     ```
-4. Install the required packages.
+4. Run virtual environment
+   ```bash
+   myenv\scripts\activate
+   ```
+5. Install the required packages.
     ```bash
     pip install -r requirements.txt
     ```
-5. In the project folder, add a `.env` file with the following content:
+6. In the project folder, add a `.env` file with the following content:
     ```env
     DB_PASS=YOUR DATABASE PASSWORD
     DB_NAME=YOUR DATABASE NAME
     DB_USER=YOUR DATABASE USERNAME
     DB_HOST=YOUR DATABASE HOST
     DB_PORT=YOUR DATABASE PORT
+    AWS_ACCESS_KEY_ID=YOUR AWS ACCESS KEY ID
+    AWS_SECRET_ACCESS_KEY=YOUR AWS SECRET ACCESS KEY
+    AWS_STORAGE_BUCKET_NAME=YOUR AWS BUCKET NAME
     ```
 6. Run the server.
     ```bash
@@ -105,6 +114,12 @@ The application is deployed at [https://ecommerce-carbonethics-4fde1ef0b9b7.hero
 Admin Access:
 - **Email**: admin@achmadardani.me
 - **Password**: admin
+
+Test Case:
+Credit Card
+Card Number 4032038847445073
+Expiry Date: 03/2026
+CVC: 576
 
 ## Known Limitations
 - The user's current location on a map is not applied.
