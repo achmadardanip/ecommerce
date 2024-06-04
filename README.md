@@ -29,6 +29,7 @@ This repository contains the source code for a comprehensive e-commerce platform
 6. **Database Hosting**: Supabase
 7. **Database**: PostgreSQL
 8. **Storage:** AWS S3
+9. **Cloud Platform:** Heroku
 
 ## Installation
 ### Backend Setup
@@ -82,7 +83,7 @@ This repository contains the source code for a comprehensive e-commerce platform
     SKIP_PREFLIGHT_CHECK=true
     ```
 
-## API Documentation
+## API Endpoints
 ### Products
 - `GET /api/products`
 - `POST /api/products/create`
@@ -123,7 +124,7 @@ Credit Card
 
 ## Any Assumptions or Decisions Made During Development
 
-### Hosting
+### Cloud Platform
 - **Heroku**: Chosen for its ease of use, built-in deployment tools, and support for multiple languages. Compared to other options like AWS or Vercel, Heroku simplifies the deployment process and offers a free tier for small projects.
 
 ### Database Hosting
