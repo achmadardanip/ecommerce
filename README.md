@@ -34,11 +34,11 @@ This repository contains the source code for a comprehensive e-commerce platform
 ### Backend Setup
 1. Clone this repo.
     ```bash
-    git clone https://github.com/yourusername/repo.git
+    https://github.com/achmadardanip/ecommerce.git
     ```
 2. Navigate to the project folder.
     ```bash
-    cd repo
+    cd ecommerce
     ```
 3. Create a virtual environment.
     ```bash
