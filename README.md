@@ -100,7 +100,7 @@ This repository contains the source code for a comprehensive e-commerce platform
 - `PUT /api/orders/:id/pay`
 
 ## Live Application
-The application is deployed at [www.store.achmadardani.me](http://www.store.achmadardani.me)
+The application is deployed at [https://ecommerce-carbonethics-4fde1ef0b9b7.herokuapp.com/#/](https://ecommerce-carbonethics-4fde1ef0b9b7.herokuapp.com/#/)
 
 Admin Access:
 - **Email**: admin@achmadardani.me
