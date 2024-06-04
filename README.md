@@ -12,7 +12,7 @@ This repository contains the source code for a comprehensive e-commerce platform
 - **Product pagination**
 - **Top products carousel**
 - **Product search feature**
-- **User profile with orders**
+- **User profile with order history**
 - **Admin product management**
 - **Admin user management**
 - **Admin Order details page**
