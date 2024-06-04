@@ -117,10 +117,30 @@ Admin Access:
 
 Test Case:
 Credit Card
-Card Number 4032038847445073
-Expiry Date: 03/2026
-CVC: 576
+- Card Number 4032038847445073
+- Expiry Date: 03/2026
+- CVC: 576
 
+## Any Assumptions or Decisions Made During Development
+
+### Hosting
+- **Heroku**: Chosen for its ease of use, built-in deployment tools, and support for multiple languages. Compared to other options like AWS or Vercel, Heroku simplifies the deployment process and offers a free tier for small projects.
+
+### Database Hosting
+- **Supabase**: Selected for its seamless integration with PostgreSQL, real-time capabilities, and ease of setup. Supabase offers an open-source alternative to Firebase, providing similar features with more control over the database.
+
+### State Management
+- **Redux**: Used for its predictable state management, ease of debugging, and robust ecosystem. Compared to Context API or MobX, Redux provides a clearer structure for large applications, making state changes more predictable and easier to manage.
+
+### Storage
+- **AWS S3**: Chosen for its scalability, reliability, and integration with other AWS services. S3 offers cost-effective storage and high availability, making it a superior choice compared to traditional hosting or other cloud storage providers.
+
+### Payment Integration
+- **PayPal**: Selected for its widespread adoption, ease of integration, and secure payment processing. PayPal offers robust developer tools and APIs, making it easier to implement compared to other payment gateways like Stripe or Square.
+
+### Authentication
+- **JWT**: Used for its stateless nature, scalability, and ease of implementation. JWT allows for secure transmission of information between parties as a JSON object. Compared to traditional session-based authentication, JWT is more flexible and suitable for modern web applications.
+- 
 ## Known Limitations
 - The user's current location on a map is not applied.
 - No unit tests are implemented.
