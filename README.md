@@ -4,7 +4,7 @@ Welcome to CarbonEthics!
 CarbonEthics is an organization that aims to restore the climate balance through natural climate solutions with pioneers in blue carbon rehabilitation. When you conserve with CarbonEthics, you are not only creating positive environmental change, but you are also advancing social impact by directly enhancing the livelihoods of local community partners and thriving biodiversity. Starting as a not-for-profit organization, we are expanding to Impact Enterprise to provide more climate solutions through our net zero journey: Tree Planting, Carbon Consultancy, and Nature-based Carbon Projects.
 
 ## About this Repository
-This repository contains the source code for a comprehensive e-commerce platform for digital products developed as part of the technical challenge for the Fullstack Developer position at CarbonEthics. The platform includes features for product management, user authentication, order processing, and administrative functionalities. The application is built using Django for the backend and React.js for the frontend, and it leverages Redux for state management and JWT for authentication.
+This repository contains the source code for a comprehensive e-commerce platform for digital products developed as part of the technical challenge for the Fullstack Developer position at CarbonEthics. The platform includes features for product management, user authentication, order processing, and administrative functionalities. The application is built using Django for the backend and React.js for the frontend, and it leverages Redux for state management, JWT for authentication and Amazon Web Service S3 for storage.
 
 ## Features of the App
 - **Full featured shopping cart**
