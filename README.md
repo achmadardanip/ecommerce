@@ -26,6 +26,7 @@ This repository contains the source code for a comprehensive e-commerce platform
 4. **Authentication**: JWT
 5. **API Framework**: Django REST Framework
 6. **Database Hosting**: Supabase
+7. **Database**: PostgreSQL
 
 ## Installation
 ### Backend Setup
@@ -47,11 +48,11 @@ This repository contains the source code for a comprehensive e-commerce platform
     ```
 5. In the project folder, add a `.env` file with the following content:
     ```env
-    DB_PASS=''
-    DB_NAME=''
-    DB_USER=''
-    DB_HOST=''
-    DB_PORT=''
+    DB_PASS=YOUR DATABASE PASSWORD
+    DB_NAME=YOUR DATABASE NAME
+    DB_USER=YOUR DATABASE USERNAME
+    DB_HOST=YOUR DATABASE HOST
+    DB_PORT=YOUR DATABASE PORT
     ```
 6. Run the server.
     ```bash
