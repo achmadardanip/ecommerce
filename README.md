@@ -91,6 +91,7 @@ This repository contains the source code for a comprehensive e-commerce platform
 - `POST /api/products/:id/reviews`
 - `PUT /api/products/update/:id`
 - `DELETE /api/products/delete/:id`
+- `GET /api/products/top`
 
 ### Users
 - `GET /api/users`
@@ -103,6 +104,7 @@ This repository contains the source code for a comprehensive e-commerce platform
 - `DELETE /api/users/delete/:id`
 
 ### Orders
+- `GET /api/orders`
 - `POST /api/orders/add`
 - `GET /api/orders/myorders`
 - `PUT /api/orders/:id/deliver`
