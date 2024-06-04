@@ -141,7 +141,7 @@ Credit Card
 
 ### Authentication
 - **JWT**: Used for its stateless nature, scalability, and ease of implementation. JWT allows for secure transmission of information between parties as a JSON object. Compared to traditional session-based authentication, JWT is more flexible and suitable for modern web applications.
-- 
+
 ## Known Limitations
 - The user's current location on a map is not applied.
 - No unit tests are implemented.
