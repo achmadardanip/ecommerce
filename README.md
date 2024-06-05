@@ -115,7 +115,7 @@ This repository contains the source code for a comprehensive e-commerce platform
 The application is deployed at [https://www.store.achmadardani.live](https://www.store.achmadardani.live/)
 
 Admin Access:
-- **Email**: admin@achmadardani.me
+- **Email**: admin@store.achmadardani.live
 - **Password**: admin
 
 Test Case:
