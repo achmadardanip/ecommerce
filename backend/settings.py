@@ -28,7 +28,7 @@ SECRET_KEY = 'sc%oco$+(3$z$at=z4j)#l-+ym)+_b11389mdt2^12m$bf63%@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'www.store.achmadardani.me', 'store.achmadardani.me', 'ecommerce-carbonethics-4fde1ef0b9b7.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'www.store.achmadardani.live', 'store.achmadardani.live', 'ecommerce-carbonethics-4fde1ef0b9b7.herokuapp.com']
 
 
 # Application definition
